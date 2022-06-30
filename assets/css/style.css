@@ -35,6 +35,8 @@
     flex-flow: column wrap;
     justify-content: center;
     min-height: 100vh;
+    margin-left: 5rem;
+    margin-right: 5rem;
   }
   
 
@@ -52,6 +54,7 @@
     grid-template-columns: repeat(3, 1fr);
     gap: var(--gap);
     counter-reset: grid-counter;
+    bottom: 8rem;
 }
 
 .grid h3 {
